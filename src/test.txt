@@ -1,0 +1,26 @@
+//check if this uppercase_string is part of a whole password
+            if(uppercase_string.length() > 0 && password.contains(uppercase_string)){
+                int indexOf_string = password.indexOf(uppercase_string);
+
+                if(uppercase_string.length() > 4){
+
+                    // this should fail because you are going beyond the max count
+
+                    System.out.println("Failed");
+
+                    return false;
+
+
+                }else{
+                    System.out.println("Passed");
+
+
+                }
+
+                System.out.println("Contains Here: " + uppercase_string);
+
+                return true;
+            }
+
+            System.out.println("Does not contain Here: " + uppercase_string);
+            //check the beginning of characters
