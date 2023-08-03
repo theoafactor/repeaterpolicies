@@ -14,31 +14,6 @@ public class Repeater {
 
     public Repeater(){
 
-//        Boolean result = this.validateUpperCase(5, "WHATeveTESTrisHAPPYpeoplePAYDDF");
-//
-//        if(result){
-//            System.out.println("UpperCase validation passed");
-//        }else{
-//            System.out.println("UpperCase validation failed");
-//        }
-
-//        Boolean numberResult = this.validateNumber(2, "WHATeveTESTrisHAPPYpeoplePAYDD2F123");
-//
-//        if(numberResult){
-//            System.out.println("Number validation passed");
-//        }else{
-//            System.out.println("Number validation failed");
-//        }
-
-
-        Boolean specResult = this.validateSpecialChars(2, "@WHATeveTESTris@#HAPPYpeoplePAYDD2F123@!$$");
-
-        if(specResult){
-            System.out.println("Char validation passed");
-        }else{
-            System.out.println("Char validation failed");
-        }
-
     }
 
     // the main entry of the class here

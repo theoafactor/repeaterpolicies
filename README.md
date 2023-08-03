@@ -5,12 +5,20 @@ Please report questions to **[olu@cyclobold.com](mailto:olu@cyclobold.com)**
 Visit https://cyclobold.com for more information.
 <hr>
 
-- Add the code as a package to your src folder 
+- Add the code as a package to your project 
 - Declare an import command at the top of your project: 
   ```java
-     import com.cyclobold.repeaterplicies;
+     import com.cyclobold.repeaterplicies.Repeater;
     ```
+
+- Create a new instance of the class. 
+  ```java
+     Repeater repeater = new Repeater();
+  ```
 - Now you can use the methods available
+  ```java 
+     repeater.validateUpperCase(4, "MySamplePASSWORD");
+  ```
 
 <hr>
 <h4>Methods Available</h4>
