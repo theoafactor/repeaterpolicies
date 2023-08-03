@@ -1,3 +1,5 @@
+package com.cyclobold.repeaterpolicies;
+
 public class Repeater {
 
     /**
@@ -242,11 +244,7 @@ public class Repeater {
                     //check if the length of the uppercase_string is already pass the requirements
                     if(uppercase_string.length() > max_number){
                         // there is no point continuing with the checkings
-                        // break out the loop
-//                        System.out.println("Test failed upper 1: "+ uppercase_string);
-//                        System.out.println("Test failed old_upper 1: "+ old_uppercase_string);
-//                        System.out.println("Test failed lower: 1 "+ lowercase_string);
-                        //System.out.println("Test failed");
+
                         return false;
 
                     }else{
@@ -283,18 +281,9 @@ public class Repeater {
                 // so the focus should be on uppercase_string
                 if(uppercase_string.length() > max_number){
                     // test has failed
-//                    System.out.println("Test failed upper: 2 "+ uppercase_string);
-//                    System.out.println("Test failed old_upper: 2 "+ old_uppercase_string);
-//                    System.out.println("Test failed lower: 2 "+ lowercase_string);
-                    //System.out.println("Test failed");
                     return false;
                 }
 
-
-//                System.out.println("Test PASSED upper: 2 "+ uppercase_string);
-//                System.out.println("Test PASSED old_upper: 2 "+ old_uppercase_string);
-//                System.out.println("Test PASSED lower: 2 "+ lowercase_string);
-                //System.out.println("Test passed");
                 return true;
             }
 
@@ -346,7 +335,6 @@ public class Repeater {
 
 
 
-
     /**
      *
      * @param max_number
@@ -361,9 +349,7 @@ public class Repeater {
 
         //check if special character is set
         String specialChars = "!#$%&'()*+,-./:;<=>?@[]^_`{|}";
-//        if(this.allowed_special_chars.trim().isEmpty()){
-//            specialChars = this.allowed_special_chars;
-//        }
+
 
 
         if(!password.isEmpty()){
